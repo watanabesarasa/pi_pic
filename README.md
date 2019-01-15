@@ -18,7 +18,10 @@ rosrun pi_pic_ros face_pic.py
 -  ブラウザで　http://[000.00.00.00]:10000/stream?topic=/face（[]の中は自分の IPアドレス）を開いて確認
 
 -  距離感を調節する
-
+-  写真は以下のコマンドで自分のパソコンに保存
+```
+scp ubuntu@[000.00.00.00]:/tmp/image.jpg ~/　（[]の中は自分の IPアドレス）
+```
 ## LICENCE
 -  MITライセンスに基づく
 -  [LICENCE](https://github.com/watanabesarasa/pi_pic/blob/master/LICENSE)
